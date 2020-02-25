@@ -1,0 +1,12 @@
+h1{
+    color: grey;
+}
+.about{
+    width: 500px;
+    height: 200px;
+    box-shadow: grey;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}

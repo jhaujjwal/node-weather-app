@@ -4,18 +4,22 @@
         <title>Weather</title>
         <link rel="stylesheet" href="./css/styles.css">
     </head>
-    <body>
-        <div>
+    <body class="body">
+        <div class="container">
+            <div class="">
             {{>header}}
-            <h1>Use this site to get your weather</h1>
+            <p>Use this site to get your weather</p>
             <form action="">
                 <input placeholder='Location' type="text">
                 <button>Search</button>
             </form>
             <p id='message-1'></p>
             <p id='message-2'></p>
+        </div class="footer">
+            {{>footer}}
         </div>
-        {{>footer}}
+        
+        
         <script src="/js/app.js"></script>
     </body>
 </html>
